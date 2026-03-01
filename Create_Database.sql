@@ -1,0 +1,14 @@
+CREATE DATABASE dwh_test;
+GO
+
+USE dwh_test;
+GO
+
+CREATE SCHEMA stage;
+GO
+
+CREATE SCHEMA dwh;
+GO
+
+CREATE SCHEMA mart;
+GO
