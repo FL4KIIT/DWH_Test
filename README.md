@@ -52,17 +52,17 @@ orders
 Удаление товаров не обрабатывается.
 
 Как запустить
-
-Выполнить create_tables.sql
-
-Выполнить insert_stage_data.sql
-
-Запустить процедуры:
-
-dwh.load_customer
-
-dwh.load_products
-
-dwh.load_orders
-
-Запустить mart.calc_top_products
+1. Create_Database.sql
+2. stage.klienti.sql
+3. stage.tovari.sql
+4. stage.zakazi.sql
+5. dwh.customer.sql
+6. dwh.products.sql
+7. dwh.orders.sql
+8. insert_stage_data.sql
+9. insert_stage.tovari.sql
+10. insert_stage.zakazi.sql
+11. load_customer.sql
+12. load_products.sql
+13. load_orders.sql
+14. calc_top_products.sql
